@@ -23,7 +23,7 @@ TARGET = coremark
 #DEBUG = 1
 # optimization
 #OPT = -Og
-OPT = -O3
+OPT = -O3 -fno-common -funroll-loops -finline-functions
 
 
 #######################################
